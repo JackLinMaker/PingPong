@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E7F46DD517E0891100E5F2BC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7F46DD417E0891100E5F2BC /* UIKit.framework */; };
+		E7F46DD717E0891100E5F2BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7F46DD617E0891100E5F2BC /* Foundation.framework */; };
+		E7F46DD917E0891100E5F2BC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7F46DD817E0891100E5F2BC /* CoreGraphics.framework */; };
+		E7F46DDF17E0891100E5F2BC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E7F46DDD17E0891100E5F2BC /* InfoPlist.strings */; };
+		E7F46DE117E0891100E5F2BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E7F46DE017E0891100E5F2BC /* main.m */; };
+		E7F46DE517E0891100E5F2BC /* PaddlesAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E7F46DE417E0891100E5F2BC /* PaddlesAppDelegate.m */; };
+		E7F46DE717E0891100E5F2BC /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E7F46DE617E0891100E5F2BC /* Default.png */; };
+		E7F46DE917E0891100E5F2BC /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E7F46DE817E0891100E5F2BC /* Default@2x.png */; };
+		E7F46DEB17E0891100E5F2BC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E7F46DEA17E0891100E5F2BC /* Default-568h@2x.png */; };
+		E7F46DEE17E0891100E5F2BC /* PaddlesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7F46DED17E0891100E5F2BC /* PaddlesViewController.m */; };
+		E7F46DF117E0891100E5F2BC /* PaddlesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7F46DEF17E0891100E5F2BC /* PaddlesViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E7F46DD117E0891100E5F2BC /* Paddles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Paddles.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7F46DD417E0891100E5F2BC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E7F46DD617E0891100E5F2BC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E7F46DD817E0891100E5F2BC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E7F46DDC17E0891100E5F2BC /* Paddles-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Paddles-Info.plist"; sourceTree = "<group>"; };
+		E7F46DDE17E0891100E5F2BC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E7F46DE017E0891100E5F2BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E7F46DE217E0891100E5F2BC /* Paddles-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Paddles-Prefix.pch"; sourceTree = "<group>"; };
+		E7F46DE317E0891100E5F2BC /* PaddlesAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PaddlesAppDelegate.h; sourceTree = "<group>"; };
+		E7F46DE417E0891100E5F2BC /* PaddlesAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaddlesAppDelegate.m; sourceTree = "<group>"; };
+		E7F46DE617E0891100E5F2BC /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		E7F46DE817E0891100E5F2BC /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		E7F46DEA17E0891100E5F2BC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		E7F46DEC17E0891100E5F2BC /* PaddlesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PaddlesViewController.h; sourceTree = "<group>"; };
+		E7F46DED17E0891100E5F2BC /* PaddlesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaddlesViewController.m; sourceTree = "<group>"; };
+		E7F46DF017E0891100E5F2BC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PaddlesViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E7F46DCE17E0891100E5F2BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7F46DD517E0891100E5F2BC /* UIKit.framework in Frameworks */,
+				E7F46DD717E0891100E5F2BC /* Foundation.framework in Frameworks */,
+				E7F46DD917E0891100E5F2BC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E7F46DC817E0891100E5F2BC = {
+			isa = PBXGroup;
+			children = (
+				E7F46DDA17E0891100E5F2BC /* Paddles */,
+				E7F46DD317E0891100E5F2BC /* Frameworks */,
+				E7F46DD217E0891100E5F2BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E7F46DD217E0891100E5F2BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E7F46DD117E0891100E5F2BC /* Paddles.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E7F46DD317E0891100E5F2BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E7F46DD417E0891100E5F2BC /* UIKit.framework */,
+				E7F46DD617E0891100E5F2BC /* Foundation.framework */,
+				E7F46DD817E0891100E5F2BC /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E7F46DDA17E0891100E5F2BC /* Paddles */ = {
+			isa = PBXGroup;
+			children = (
+				E7F46DE317E0891100E5F2BC /* PaddlesAppDelegate.h */,
+				E7F46DE417E0891100E5F2BC /* PaddlesAppDelegate.m */,
+				E7F46DEC17E0891100E5F2BC /* PaddlesViewController.h */,
+				E7F46DED17E0891100E5F2BC /* PaddlesViewController.m */,
+				E7F46DEF17E0891100E5F2BC /* PaddlesViewController.xib */,
+				E7F46DDB17E0891100E5F2BC /* Supporting Files */,
+			);
+			path = Paddles;
+			sourceTree = "<group>";
+		};
+		E7F46DDB17E0891100E5F2BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E7F46DDC17E0891100E5F2BC /* Paddles-Info.plist */,
+				E7F46DDD17E0891100E5F2BC /* InfoPlist.strings */,
+				E7F46DE017E0891100E5F2BC /* main.m */,
+				E7F46DE217E0891100E5F2BC /* Paddles-Prefix.pch */,
+				E7F46DE617E0891100E5F2BC /* Default.png */,
+				E7F46DE817E0891100E5F2BC /* Default@2x.png */,
+				E7F46DEA17E0891100E5F2BC /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E7F46DD017E0891100E5F2BC /* Paddles */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7F46DF417E0891100E5F2BC /* Build configuration list for PBXNativeTarget "Paddles" */;
+			buildPhases = (
+				E7F46DCD17E0891100E5F2BC /* Sources */,
+				E7F46DCE17E0891100E5F2BC /* Frameworks */,
+				E7F46DCF17E0891100E5F2BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Paddles;
+			productName = Paddles;
+			productReference = E7F46DD117E0891100E5F2BC /* Paddles.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E7F46DC917E0891100E5F2BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Paddles;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "林光海";
+			};
+			buildConfigurationList = E7F46DCC17E0891100E5F2BC /* Build configuration list for PBXProject "Paddles" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E7F46DC817E0891100E5F2BC;
+			productRefGroup = E7F46DD217E0891100E5F2BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E7F46DD017E0891100E5F2BC /* Paddles */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E7F46DCF17E0891100E5F2BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7F46DDF17E0891100E5F2BC /* InfoPlist.strings in Resources */,
+				E7F46DE717E0891100E5F2BC /* Default.png in Resources */,
+				E7F46DE917E0891100E5F2BC /* Default@2x.png in Resources */,
+				E7F46DEB17E0891100E5F2BC /* Default-568h@2x.png in Resources */,
+				E7F46DF117E0891100E5F2BC /* PaddlesViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E7F46DCD17E0891100E5F2BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7F46DE117E0891100E5F2BC /* main.m in Sources */,
+				E7F46DE517E0891100E5F2BC /* PaddlesAppDelegate.m in Sources */,
+				E7F46DEE17E0891100E5F2BC /* PaddlesViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E7F46DDD17E0891100E5F2BC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7F46DDE17E0891100E5F2BC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E7F46DEF17E0891100E5F2BC /* PaddlesViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7F46DF017E0891100E5F2BC /* en */,
+			);
+			name = PaddlesViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E7F46DF217E0891100E5F2BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E7F46DF317E0891100E5F2BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E7F46DF517E0891100E5F2BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Paddles/Paddles-Prefix.pch";
+				INFOPLIST_FILE = "Paddles/Paddles-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E7F46DF617E0891100E5F2BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Paddles/Paddles-Prefix.pch";
+				INFOPLIST_FILE = "Paddles/Paddles-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E7F46DCC17E0891100E5F2BC /* Build configuration list for PBXProject "Paddles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7F46DF217E0891100E5F2BC /* Debug */,
+				E7F46DF317E0891100E5F2BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7F46DF417E0891100E5F2BC /* Build configuration list for PBXNativeTarget "Paddles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7F46DF517E0891100E5F2BC /* Debug */,
+				E7F46DF617E0891100E5F2BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E7F46DC917E0891100E5F2BC /* Project object */;
+}
