@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AudioToolbox/AudioToolbox.h>
 
 @interface PaddlesViewController : UIViewController
 {
@@ -16,10 +17,17 @@
     float dy;
     float speed;
     NSTimer *timer;
+    UIAlertView * alert;
+    SystemSoundID sounds[3];
 }
 @property (retain, nonatomic) IBOutlet UIView *viewPaddle1;
 @property (retain, nonatomic) IBOutlet UIView *viewPaddle2;
 
 @property (retain, nonatomic) IBOutlet UIView *viewPuck;
+@property (retain, nonatomic) IBOutlet UILabel *viewScore1;
+@property (retain, nonatomic) IBOutlet UILabel *viewScore2;
+
+- (void)resume;
+- (void)pause;
 
 @end

@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E74E649017E1F1CE00A77D06 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E74E648F17E1F1CE00A77D06 /* AudioToolbox.framework */; };
+		E74E649417E1F51700A77D06 /* paddle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E74E649117E1F51700A77D06 /* paddle.mp3 */; };
+		E74E649517E1F51700A77D06 /* score.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E74E649217E1F51700A77D06 /* score.mp3 */; };
+		E74E649617E1F51700A77D06 /* wall.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E74E649317E1F51700A77D06 /* wall.mp3 */; };
 		E7F46DD517E0891100E5F2BC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7F46DD417E0891100E5F2BC /* UIKit.framework */; };
 		E7F46DD717E0891100E5F2BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7F46DD617E0891100E5F2BC /* Foundation.framework */; };
 		E7F46DD917E0891100E5F2BC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7F46DD817E0891100E5F2BC /* CoreGraphics.framework */; };
@@ -21,6 +25,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E74E648F17E1F1CE00A77D06 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		E74E649117E1F51700A77D06 /* paddle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = paddle.mp3; sourceTree = "<group>"; };
+		E74E649217E1F51700A77D06 /* score.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = score.mp3; sourceTree = "<group>"; };
+		E74E649317E1F51700A77D06 /* wall.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = wall.mp3; sourceTree = "<group>"; };
 		E7F46DD117E0891100E5F2BC /* Paddles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Paddles.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7F46DD417E0891100E5F2BC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E7F46DD617E0891100E5F2BC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -44,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E74E649017E1F1CE00A77D06 /* AudioToolbox.framework in Frameworks */,
 				E7F46DD517E0891100E5F2BC /* UIKit.framework in Frameworks */,
 				E7F46DD717E0891100E5F2BC /* Foundation.framework in Frameworks */,
 				E7F46DD917E0891100E5F2BC /* CoreGraphics.framework in Frameworks */,
@@ -56,6 +65,7 @@
 		E7F46DC817E0891100E5F2BC = {
 			isa = PBXGroup;
 			children = (
+				E74E648F17E1F1CE00A77D06 /* AudioToolbox.framework */,
 				E7F46DDA17E0891100E5F2BC /* Paddles */,
 				E7F46DD317E0891100E5F2BC /* Frameworks */,
 				E7F46DD217E0891100E5F2BC /* Products */,
@@ -83,6 +93,9 @@
 		E7F46DDA17E0891100E5F2BC /* Paddles */ = {
 			isa = PBXGroup;
 			children = (
+				E74E649117E1F51700A77D06 /* paddle.mp3 */,
+				E74E649217E1F51700A77D06 /* score.mp3 */,
+				E74E649317E1F51700A77D06 /* wall.mp3 */,
 				E7F46DE317E0891100E5F2BC /* PaddlesAppDelegate.h */,
 				E7F46DE417E0891100E5F2BC /* PaddlesAppDelegate.m */,
 				E7F46DEC17E0891100E5F2BC /* PaddlesViewController.h */,
@@ -164,6 +177,9 @@
 				E7F46DE917E0891100E5F2BC /* Default@2x.png in Resources */,
 				E7F46DEB17E0891100E5F2BC /* Default-568h@2x.png in Resources */,
 				E7F46DF117E0891100E5F2BC /* PaddlesViewController.xib in Resources */,
+				E74E649417E1F51700A77D06 /* paddle.mp3 in Resources */,
+				E74E649517E1F51700A77D06 /* score.mp3 in Resources */,
+				E74E649617E1F51700A77D06 /* wall.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +315,7 @@
 				E7F46DF617E0891100E5F2BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
